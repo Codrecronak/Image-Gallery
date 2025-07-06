@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    margin: 0px 100px;
+}
+h1 {
+    display: flex
+;
+    justify-content: center;
+font-family: Arial, Helvetica, sans-serif;}
+
+.display_img {
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+}
+ul{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+ul li{
+    height: 100px;
+    width: 100%;
+}
+button {
+    background-color: transparent;
+    border: 1px solid #aaa;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.display_img img{
+    height: 521px;
+    
+    
+}
